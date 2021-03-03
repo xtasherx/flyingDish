@@ -1,4 +1,4 @@
 On search button press
-    make a call to API to return search data
+    make a call to API to return search data******Done******
     pass that data into card components as props
-        -this requires a map, check bootcamp homeworks to refresh on this
+        -this requires a map, check bootcamp homeworks to refresh 

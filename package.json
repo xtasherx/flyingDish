@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/xtasherx/flyingDish/issues"
   },
-  "homepage": "https://github.com/xtasherx/flyingDish#readme"
+  "homepage": "https://github.com/xtasherx/flyingDish#readme",
+  "dependencies": {
+    "ajax": "0.0.4"
+  }
 }
