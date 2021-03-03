@@ -1,0 +1,4 @@
+On search button press
+    make a call to API to return search data
+    pass that data into card components as props
+        -this requires a map, check bootcamp homeworks to refresh on this
