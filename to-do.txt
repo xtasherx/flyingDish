@@ -1,4 +1,15 @@
-On search button press
-    make a call to API to return search data******Done******
-    pass that data into card components as props
-        -this requires a map, check bootcamp homeworks to refresh 
+On results page load
+    map out api call results. 
+
+
+
+set up login/sign up
+    decide passport or Auth0?
+    saved recipes should be a protected path 
+
+when a recipe is saved data needs to be sent to the db
+    what data needs to be saved? 
+        photo url
+        site url
+        description
+    how should the tables be set up? 

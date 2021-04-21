@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect} from 'react';
-import axios from "axios";
+
 import Header from "../Components/Header";
  const Landing = () => {
 
    const [userSearch,setUserSearch] = useState("");
-   const [searchResults,setSearchResults] = useState([]);
+  
 
    
    const handleChange = e => {
@@ -14,13 +14,7 @@ import Header from "../Components/Header";
 }
 
    const handleClick = () => {
-      // api call to spoonacular 
-      console.log(userSearch)
-      const responseURL = `https://api.spoonacular.com/recipes/complexSearch/?query=${userSearch}&sort=random&instructionsRequired=true&maxReadyTime=20&addRecipeInformation=true&fillIngredients=true&max-used-ingredients=10&number=6&apiKey=4f924dd683af4b90b667d59fcf07d711`;
-      axios.get(responseURL)
-         .then( res => {
-            console.log(res.data.results)
-         })
+        window.location.pathname = `results/${userSearch}`
 }
 
      return (
